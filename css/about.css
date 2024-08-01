@@ -1,0 +1,165 @@
+/* Styles for the sections */
+.banner {
+    background-image:url('../images/ban1.jpeg');
+    padding: 100px 0;
+    
+}
+
+.slogan {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.gallery {
+    padding: 50px 0;
+}
+.gallery h3{
+    text-align: center;
+    margin-bottom:2em;
+    color: red;
+}
+
+/* Styles for text and font */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.banner h2 {
+    font-size: 5rem;
+    margin-top: 20px;
+    color: white;
+}
+
+.banner p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.slogan h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.slogan .beautiful-font {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Styles for the gallery */
+.gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery .col {
+    flex: 0 0 25%; /* Four columns */
+    padding: 0 10px;
+    text-align: center;
+}
+
+.gallery img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.slogan-section {
+    text-align: center;
+    /* padding: 50px 0; */
+    /* height:45em; */
+}
+
+
+.slogan-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.book-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.slogan-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Media queries for tablet devices */
+@media (max-width: 992px) {
+    .banner h2 {
+        font-size: 1.5rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+    .slogan h3 {
+        font-size: 1.5rem;
+    }
+
+    .slogan .beautiful-font {
+        font-size: 2rem;
+    }
+
+    .gallery .col {
+        flex: 0 0 33.33%; /* Three columns */
+    }
+
+    .slogan-text {
+        font-size: 1.5rem;
+    }
+
+    .book-now-button {
+        font-size: 0.8rem;
+    }
+
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 576px) {
+    .banner h2 {
+        font-size: 1.2rem;
+    }
+
+    .banner p {
+        font-size: 0.9rem;
+    }
+
+    .slogan h3 {
+        font-size: 1.2rem;
+    }
+
+    .slogan .beautiful-font {
+        font-size: 1.5rem;
+    }
+
+    .gallery .col {
+        flex: 0 0 50%; /* Two columns */
+    }
+    .slogan-text {
+        font-size: 1.2rem;
+    }
+
+    .book-now-button {
+        font-size: 0.7rem;
+        padding: 8px 16px;
+    }
+}

@@ -1,0 +1,117 @@
+GET request: Array
+(
+    [oid] => Booking_83
+    [amt] => 5000.0
+    [refId] => 0007RBJ
+)
+
+Invalid request: Missing required parameters.
+GET request: Array
+(
+    [oid] => Booking_84
+    [amt] => 4000.0
+    [refId] => 0007RBL
+)
+
+Invalid request: Missing required parameters.
+GET request: Array
+(
+    [oid] => Booking_85
+    [amt] => 5000.0
+    [refId] => 0007RBO
+)
+
+GET request: Array
+(
+    [oid] => Booking_86
+    [amt] => 1.0
+    [refId] => 0007RBR
+)
+
+GET request: Array
+(
+    [oid] => Booking_87
+    [amt] => 1.0
+    [refId] => 0007RBS
+)
+
+GET request: Array
+(
+    [oid] => Booking_85
+    [amt] => 5000.0
+    [refId] => 0007RBO
+)
+
+Database Error: Error: Cannot add or update a child row: a foreign key constraint fails (`snowpaltreks_hotel`.`esewapayments`, CONSTRAINT `esewapayments_ibfk_1` FOREIGN KEY (`booking_id`) REFERENCES `bookings` (`booking_id`))
+GET request: Array
+(
+    [oid] => Booking_85
+    [amt] => 5000.0
+    [refId] => 0007RBO
+)
+
+Database Error: Error: Cannot add or update a child row: a foreign key constraint fails (`snowpaltreks_hotel`.`esewapayments`, CONSTRAINT `esewapayments_ibfk_1` FOREIGN KEY (`booking_id`) REFERENCES `bookings` (`booking_id`))
+GET request: Array
+(
+    [oid] => Booking_89
+    [amt] => 1.0
+    [refId] => 0007RCR
+)
+
+GET request: Array
+(
+    [oid] => Booking_90
+    [amt] => 1.0
+    [refId] => 0007RCW
+)
+
+GET request: Array
+(
+    [oid] => Booking_92
+    [amt] => 1.0
+    [refId] => 0007RDG
+)
+
+Database Error: Error: 
+GET request: Array
+(
+    [oid] => Booking_92
+    [amt] => 1.0
+    [refId] => 0007RDG
+)
+
+GET request: Array
+(
+    [oid] => Booking_94
+    [amt] => 13000.0
+    [refId] => 0007RQ5
+)
+
+GET request: Array
+(
+    [oid] => Booking_99
+    [amt] => 13000.0
+    [refId] => 0007T6U
+)
+
+GET request: Array
+(
+    [oid] => Booking_101
+    [amt] => 25.0
+    [refId] => 0007TE1
+)
+
+GET request: Array
+(
+    [oid] => Booking_109
+    [amt] => 2000.0
+    [refId] => 0008004
+)
+
+GET request: Array
+(
+    [oid] => Booking_113
+    [amt] => 4.0
+    [refId] => 0008B2V
+)
+
